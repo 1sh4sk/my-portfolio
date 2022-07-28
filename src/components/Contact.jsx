@@ -27,17 +27,19 @@ function Contactme() {
                 </div>
             </div>
 
-            <div className="bottom-content">
-                <form>
-                    <h1>Send me an email</h1>
-                    <label>Name:</label>
-                    <input type="text" placeholder="Enter your name" />
-                    <label>Email address:</label>
-                    <input type="email" placeholder="Enter your email" />
-                    <label>Message:</label>
-                    <textarea rows="4" columns="50" placeholder="Type your message" />
-                </form>
-            </div>
+            <section className="main-content">
+                <div>
+                    <form>
+                        <h1>Send me an email</h1>
+                        <label>Name:</label>
+                        <input type="text" placeholder="Enter your name" />
+                        <label>Email address:</label>
+                        <input type="email" placeholder="Enter your email" />
+                        <label>Message:</label>
+                        <textarea rows="4" columns="50" placeholder="Type your message" />
+                    </form>
+                </div>
+            </section>
         </div>
     );
 }

@@ -8,6 +8,22 @@ body{
     overflow-x: hidden;
 }
 
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-family: 80px;
+    text-align: center;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font: light;
+    font-size: 15px;
+    text-align: justify;
+    margin: 15px 0px;
+    line-height: 1.5rem;
+}
+
+
 /* navbar start */
 
 .navbar{
@@ -45,11 +61,6 @@ ul.nav a:hover{
 
 /* navbar end  */
 
-/* content start*/
-.content{
-    margin : 0px;
-    padding : 54px 0px;
-}
 
 
 /* home page start */
@@ -57,10 +68,14 @@ ul.nav a:hover{
     width:100vw;
     height:91vh;
     overflow-x: hidden;
-    /* overflow-y: hidden; */
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
+    overflow-y: hidden;
     margin: 0;
+}
+
+.landing-page p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px ;
+    margin:0px;
 }
 
 .landing-left-div{
@@ -88,6 +103,11 @@ ul.nav a:hover{
 .landing-right-div h1{
     font-family: 'Great Vibes', cursive;
     font-size: 60px;
+    text-align:left;
+}
+
+.landing-right-div .home_heading{
+    text-align: center;
 }
 
 .icons{
@@ -105,10 +125,141 @@ ul.nav a:hover{
     color : #D3D3D3;
 }
 
-/* bottom content in contact page */
-.bottom-content{
-    margin-bottom: 65px;
+/* main content section start */
+.main_content{
+    padding: 0px 0px 66px;
 }
+/* main content section end */
+
+/* sub content section start */
+.sub_content{
+    margin-bottom: 40px;
+}
+/* sub content section end */
+
+.box_shadow{
+    box-shadow: inset 1px 1px 3px 1px #c6c6c6;
+    padding:50px 130px;
+}
+
+/* skill cards start */
+.cards{
+    width: 80%;
+    display:flex;
+    justify-content: space-between !important;
+    text-align: center;
+    margin:30px auto 100px;
+}
+
+.card{
+   padding:25px 70px;
+   box-shadow: 1px 3px 8px 0px #c6c6c6;
+   z-index: -5;
+}
+
+.card_imgbg{
+    background-color: #3D3D3D;
+    width: 70px;
+    height:70px;
+    border-radius: 50%;
+    position:relative;
+    left:50%;
+    transform: translate(-50%);
+}
+
+.card_img{
+    width:50px;
+    height:50px;
+    background: #3D3D3D;
+    border-radius: 50%;
+    position:relative;
+    top: 10px;
+}
+
+.card_body{
+   font-family: 'Poppins', sans-serif;
+   font-size: 12px;
+   
+}
+
+.card_body p {
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+}
+
+.card_body ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* skill cards end  */
+
+
+/* about me skills graph start*/
+.outer_box{
+    width:100%;
+    height: 70vh;
+    margin: 120px auto 0;
+    /* box-shadow: inset 1px 1px 3px 1px #c6c6c6; */
+}
+
+.box{
+    width:80%;
+    height: 80%;
+    margin: 50px auto;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    position: relative;
+    top:12%;
+    /* box-shadow: inset 1px 1px 8px 1px #c6c6c6; */
+}
+
+.graphbox{
+    width :60%;
+    height:100%;
+    position: relative;
+    left: 20%;
+    display: flex;
+}
+
+.graphbox .skill{
+    position: relative;
+    flex: 1;
+    text-align: center;
+}
+
+.graphbox .skill .graph{
+    width: 50px;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #000;
+}
+
+.graphbox .skill .graph .percent{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size :12px;
+    text-align: center;
+    position: absolute;
+    left:50%;
+    top: 15px;
+    transform: translate(-50%);
+}
+
+.graphbox .skill .name{
+    width:80px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: light;
+    font-size: 15px;
+    position:absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+/* about me skills graph end*/
 
 
 /* footer start  */

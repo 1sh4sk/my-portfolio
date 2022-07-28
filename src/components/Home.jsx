@@ -13,7 +13,7 @@ function Home() {
                 <div class="landing-right-div col-lg-6">
                     <div class="landingpage-right-content">
                         <p>Hey guys!</p>
-                        <h1>I'm Ayesha SK</h1>
+                        <h1  className="home_heading">I'm Ayesha SK</h1>
                         <p>an upcoming Full-stack developer</p>
 
                         <div class="icons">
