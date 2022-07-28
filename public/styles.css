@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     margin:0;
     padding:0;
@@ -24,6 +28,10 @@ body{
     margin: 0 15px;
 }
 
+.nav-item.active{
+    color : #D3D3D3 !important;
+}
+
 .nav-link{
     color:white;
     padding: 0 30px;
@@ -33,18 +41,23 @@ ul.nav a:hover{
     color : #D3D3D3 !important;
 }
 
-.nav-link.active{
-    color : #D3D3D3 !important;
-}
+
 
 /* navbar end  */
+
+/* content start*/
+.content{
+    margin : 0px;
+    padding : 54px 0px;
+}
+
 
 /* home page start */
 .landing-page{
     width:100vw;
     height:91vh;
     overflow-x: hidden;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     margin: 0;
@@ -92,9 +105,18 @@ ul.nav a:hover{
     color : #D3D3D3;
 }
 
+/* bottom content in contact page */
+.bottom-content{
+    margin-bottom: 65px;
+}
+
+
 /* footer start  */
 footer{
     overflow-x: hidden;
+    position : fixed;
+    bottom : 0px;
+    width : 100%;
     text-align: center;
     background-color: black;
     padding : 8px 0;

@@ -1,33 +1,33 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 
 function Header() {
     return (
         <header>
-            <nav class="navbar navbar-expand-lg bg-dark">
-                <div class="container-fluid">
+            <nav className="navbar navbar-expand-lg bg-dark">
+                <div className="container-fluid">
 
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
 
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav nav ms-auto">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <div className="collapse navbar-collapse" id="navbarNav">
+                        <ul className="navbar-nav nav ms-auto">
+                            <li className="nav-item active">
+                                <Link className="nav-link" aria-current="page" to="/Home">Home</Link>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">about me</a>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/Aboutme">about me</Link>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">resume</a>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="#">resume</Link>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">contact me</a>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/Contact">contact me</Link>
                             </li>
                         </ul>
                     </div>
-
                 </div>
             </nav>
         </header>
