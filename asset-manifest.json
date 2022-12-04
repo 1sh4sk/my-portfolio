@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/my-portfolio/static/js/main.93871545.js",
+    "static/media/landingpage-image.png": "/my-portfolio/static/media/landingpage-image.90fd79e8a03786ee848f.png",
+    "index.html": "/my-portfolio/index.html",
+    "main.93871545.js.map": "/my-portfolio/static/js/main.93871545.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.93871545.js"
+  ]
+}
