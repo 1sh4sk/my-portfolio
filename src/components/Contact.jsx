@@ -17,14 +17,22 @@ function Contactme() {
                         </p>
 
                         <div class="contact-icons">
-                            <a href="https://twitter.com/Ayesha_SK21d?t=EwTy9BH5ffEhDMk_gViLkw&s=09"><i class="fa-brands fa-twitter icon">Twitter</i></a>
-                            <a href="https://instagram.com/ayesha_sk14?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram icon"> Instagram</i></a>
-                            <a href="https://www.linkedin.com/in/ayeshask"><i class="fa-brands fa-linkedin icon">Linkedin</i></a>
-                            <a href="https://github.com/Ayesha-sk-14"><i class="fa-brands fa-github icon">Github</i></a>
+                            <div>
+                                <a href="https://twitter.com/1sh4sk"><i class="fa-brands fa-twitter icon"></i><p>Twitter</p></a>
+                                <a href="https://instagram.com/1sh4sk"><i class="fa-brands fa-instagram icon"></i><p>Instagram</p></a>
+                            </div>
+                            <div>
+                                <a href="https://www.linkedin.com/in/1sh4sk"><i class="fa-brands fa-linkedin icon"></i><p>Linkedin</p></a>
+                                <a href="https://github.com/1sh4sk"><i class="fa-brands fa-github icon"></i><p>Github</p></a>
+                            </div>
                         </div>
                     </div>
 
                 </div>
+            </div>
+
+            <div class="demo">
+                <h1>work in progress...</h1>
             </div>
 
             <section className="main-content">

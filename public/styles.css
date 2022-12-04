@@ -44,9 +44,9 @@ p{
     margin: 0 15px;
 }
 
-.nav-item.active{
+/* .nav-item.active{
     color : #D3D3D3 !important;
-}
+} */
 
 .nav-link{
     color:white;
@@ -57,6 +57,13 @@ ul.nav a:hover{
     color : #D3D3D3 !important;
 }
 
+/* ul.nav a.nav-link:active{
+    color : #D3D3D3 !important;
+} */
+
+.navbar-nav > .active > a {
+    color: #D3D3D3;
+}
 
 
 /* navbar end  */
@@ -209,8 +216,8 @@ ul.nav a:hover{
     width:80%;
     height: 80%;
     margin: 50px auto;
-    border-bottom: 1px solid #000;
-    border-left: 1px solid #000;
+    border-bottom: 1px solid rgb(184, 184, 184);
+    border-left: 1px solid rgb(184, 184, 184);
     position: relative;
     top:12%;
     /* box-shadow: inset 1px 1px 8px 1px #c6c6c6; */
@@ -260,6 +267,68 @@ ul.nav a:hover{
     transform: translate(-50%);
 }
 /* about me skills graph end*/
+
+/* Resume start */
+.demo{
+    width:100vw;
+    height:80vh;
+}
+
+.demo h1{
+
+    text-align: center;
+    padding-top: 300px;
+    font-size: 50px;
+   
+}
+/* Resume end */
+
+/* contact me start */
+
+.contact-icons{
+    margin: 40px auto;
+}
+
+.contact-icons div{
+    margin: 20px 0;
+}
+
+.contact-icons div a{
+    text-decoration: none;
+    margin:  0 50px; 
+}
+
+
+
+.contact-icons .icon{
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.contact-icons p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: black;
+    margin: 0 7px;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+.contact-icons p:hover{
+    color : #D3D3D3;
+}
+
+.contact-icons a:active{
+    color : #D3D3D3 !important;
+}
+
+.main-content{
+    display: none;
+}
+
+/* contact me end */
 
 
 /* footer start  */

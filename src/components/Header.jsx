@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 function Header() {
@@ -21,7 +21,7 @@ function Header() {
                                 <Link className="nav-link" to="/Aboutme">about me</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="#">resume</Link>
+                                <Link className="nav-link" to="/Resume">resume</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/Contact">contact me</Link>
@@ -30,7 +30,11 @@ function Header() {
                     </div>
                 </div>
             </nav>
+
+            
         </header>
+
+
     );
 }
 
